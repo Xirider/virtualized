@@ -4,6 +4,7 @@
 run:
 ```
 git clone https://github.com/Xirider/virtualized.git
+cd virtualized
 npm install
 npm run dev
 ```
