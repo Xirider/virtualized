@@ -32,7 +32,7 @@ export const List: FC<ListProps> = ({ items, children }) => {
           * time during virtualization.
         */}
         <SafelyRenderChildren>
-          {items.slice(0, 10).map((word) => <Item key={word}>{word}</Item>)}
+          {items.slice(0, 1000).map((word) => <Item key={word}>{word}</Item>)}
         </SafelyRenderChildren>
       </ListWrapper>
     </ScrollWrapper>
